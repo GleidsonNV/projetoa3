@@ -49,7 +49,6 @@ body {
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
-    gap: 20px;
     overflow: hidden;
 }
 
@@ -71,10 +70,10 @@ body {
 /* Estilo da área da imagem em destaque */
 .imagem-destaque {
     position: relative;
-    top: 40px;
-    left: 75px;
-    width: 500px;
-    height: 500px;
+    top: 80px;
+    left: 110px;
+    width: 700px;
+    height: 700px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -89,11 +88,11 @@ body {
 
 /* Imagem dentro do círculo */
 .destaque-imagem {
-    margin: 40px auto;
-    padding-right: 50px;
-    width: 400px;
-    height: auto;
-    object-fit: cover;
+    top: 70px;
+    right: 35px;
+    position: relative;
+    width: 550px;
+    height: 550px;
 }
 
 
