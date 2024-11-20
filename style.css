@@ -72,8 +72,8 @@ body {
     position: relative;
     top: 80px;
     left: 110px;
-    width: 700px;
-    height: 700px;
+    width: 650px;
+    height: 650px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -88,8 +88,8 @@ body {
 
 /* Imagem dentro do círculo */
 .destaque-imagem {
-    top: 70px;
-    right: 35px;
+    top: 20px;
+    right: 60px;
     position: relative;
     width: 550px;
     height: 550px;
@@ -102,7 +102,7 @@ body {
     display: flex;
     gap: 20px;
     padding: 40px;
-    background-color: #f9f9f9;
+    background-color: #000;
 }
 
 .recurso h2 {
@@ -164,7 +164,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background-color: #000;
     color: #0f0;
 }
 
@@ -175,12 +174,24 @@ body {
     align-items: center;
 }
 
+.informacao-exclamacao{
+    position: relative;
+    right: 155px;
+    top: 85px;
+    color: white;
+    font-size: 200px;
+    z-index: 1;
+}
+
 .texto-box {
+    position: relative;
+    right: 235px;
+    top: 78px;
     flex: 1;
     max-width: 60%;
     background-color: #222;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 66px;
+    border-radius: 50px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     color: #fff;
 }
@@ -191,14 +202,13 @@ body {
     color: #0f0;
 }
 
-.imagem-box {
-    flex: 1;
-    text-align: center;
-}
-
 .gato-imagem {
-    max-width: 100%;
+    margin: 80px 0 0;
+    position: relative;
+    top: -126px;
+    right: -15px;
+    max-width: 20%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
