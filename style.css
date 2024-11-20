@@ -5,12 +5,18 @@ body, h1, h2, h3, p, ul, li, a {
     list-style: none;
     text-decoration: none;
     color: inherit;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     color: #333;
+}
+
+.container{
+    margin: auto;
+    max-width: 1200px;
 }
 
 /* Cabeçalho */
