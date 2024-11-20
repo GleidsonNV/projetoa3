@@ -57,7 +57,7 @@ body {
     justify-content: end;
     background-color: #fff;
     color: #000;
-    border-bottom: 10px solid #0f0;
+    border-bottom: 18px solid #0f0;
 }
 
 .destaque-conteudo {
@@ -119,7 +119,7 @@ body {
     display: flex;
     gap: 20px;
     padding: 40px;
-    background-color: #000;
+    background-color: #1e1e1e;
 }
 
 .recurso h2 {
@@ -179,7 +179,7 @@ body {
 
 /* Rodapé */
 .rodape {
-    background-color: #000;
+    background-color:#1e1e1e;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -219,7 +219,7 @@ body {
     top: 78px;
     flex: 1;
     max-width: 60%;
-    background-color: #222;
+    background-color: #1e1e1e;
     padding: 66px;
     border-radius: 50px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
