@@ -176,10 +176,10 @@ body {
 
 .informacao-exclamacao{
     position: relative;
-    right: 155px;
+    right: 140px;
     top: 85px;
-    color: white;
-    font-size: 200px;
+    color: #494949;
+    font-size: 300px;
     z-index: 1;
 }
 
@@ -205,10 +205,10 @@ body {
 .gato-imagem {
     margin: 80px 0 0;
     position: relative;
-    top: -126px;
-    right: -15px;
-    max-width: 20%;
+    top: -143px;
+    right: -77px;
+    max-width: 24%;
     height: auto;
     border-radius: 10px;
-    z-index: 1;
+    z-index: 2;
 }
