@@ -38,10 +38,10 @@ body {
 .destaque {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 40px;
+    justify-content: end;
     background-color: #fff; /* Ajuste de fundo */
     color: #000;
+    border-bottom: 10px solid #0f0; /* Borda inferior verde grossa */
 }
 
 .destaque-conteudo {
@@ -51,32 +51,36 @@ body {
     width: 100%;
     max-width: 1200px;
     gap: 20px;
+    overflow: hidden;
 }
 
 /* Texto principal */
 .texto-destaque h1 {
-    font-size: 2.8rem;
+    font-size: 3.0rem;
     line-height: 1.2;
     color: #000;
-    font-weight: bold;
+    font-weight: 900;
     max-width: 500px;
 }
 
 .destaque-texto {
     color: #0f0; /* Verde destacado */
+    display: block;
+
 }
 
 /* Estilo da área da imagem em destaque */
 .imagem-destaque {
     position: relative;
-    width: 450px;
-    height: 450px;
+    top: 40px;
+    left: 75px;
+    width: 500px;
+    height: 500px;
     overflow: hidden;
     display: flex;
-    align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para realce */
-    background-color: #0f0; /* Fundo verde */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #0f0;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -86,8 +90,9 @@ body {
 
 /* Imagem dentro do círculo */
 .destaque-imagem {
-    padding-right: 144px;
-    width: 445px; /* Ajuste conforme necessário */
+    margin: 40px auto;
+    padding-right: 50px;
+    width: 400px; /* Ajuste conforme necessário */
     height: auto;
     object-fit: cover;
 }
