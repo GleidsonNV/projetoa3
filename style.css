@@ -1,5 +1,12 @@
 /* Reset básico */
-body, h1, h2, h3, p, ul, li, a {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -14,9 +21,9 @@ body {
     color: #333;
 }
 
-.container{
+.container {
     margin: auto;
-    max-width: 1200px;
+    max-width: 1150px;
 }
 
 /* Cabeçalho */
@@ -46,7 +53,7 @@ body {
     justify-content: end;
     background-color: #fff;
     color: #000;
-    border-bottom: 10px solid #0f0; 
+    border-bottom: 10px solid #0f0;
 }
 
 .destaque-conteudo {
@@ -114,6 +121,19 @@ body {
 .recurso h2 {
     color: #0f0;
     margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.recurso p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.recurso-imagem {
+    display: flex;
+    align-items: flex-end;
+
 }
 
 /* Clientes */
@@ -180,7 +200,7 @@ body {
     align-items: center;
 }
 
-.informacao-exclamacao{
+.informacao-exclamacao {
     position: relative;
     right: 140px;
     top: 85px;
@@ -217,4 +237,9 @@ body {
     height: auto;
     border-radius: 10px;
     z-index: 2;
+}
+
+.cachorro-imagem {
+    max-width: 100%;
+    height: auto;
 }
