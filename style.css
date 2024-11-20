@@ -19,8 +19,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #000;
-    color: #fff;
 }
 
 .navbar ul {
@@ -36,23 +34,65 @@ body {
 }
 
 /* Destaque */
+/* Estilo geral da seção */
 .destaque {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     padding: 40px;
-    background-color: #fff;
+    background-color: #fff; /* Ajuste de fundo */
     color: #000;
 }
 
-.destaque h1 {
-    font-size: 2.5rem;
+.destaque-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+/* Texto principal */
+.texto-destaque h1 {
+    font-size: 2.8rem;
     line-height: 1.2;
+    color: #000;
+    font-weight: bold;
+    max-width: 500px;
 }
 
 .destaque-texto {
-    color: #0f0;
+    color: #0f0; /* Verde destacado */
 }
+
+/* Estilo da área da imagem em destaque */
+.imagem-destaque {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para realce */
+    background-color: #0f0; /* Fundo verde */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+
+
+/* Imagem dentro do círculo */
+.destaque-imagem {
+    padding-right: 144px;
+    width: 445px; /* Ajuste conforme necessário */
+    height: auto;
+    object-fit: cover;
+}
+
+
 
 /* Recursos */
 .recursos {
