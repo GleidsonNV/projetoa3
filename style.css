@@ -1,4 +1,10 @@
 /* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body,
 h1,
 h2,
@@ -7,8 +13,6 @@ p,
 ul,
 li,
 a {
-    margin: 0;
-    padding: 0;
     list-style: none;
     text-decoration: none;
     color: inherit;
@@ -23,7 +27,7 @@ body {
 
 .container {
     margin: auto;
-    max-width: 1150px;
+    max-width: 1300px;
 }
 
 /* Cabeçalho */
