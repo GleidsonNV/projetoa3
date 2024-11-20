@@ -34,14 +34,13 @@ body {
 }
 
 /* Destaque */
-/* Estilo geral da seção */
 .destaque {
     display: flex;
     align-items: center;
     justify-content: end;
-    background-color: #fff; /* Ajuste de fundo */
+    background-color: #fff;
     color: #000;
-    border-bottom: 10px solid #0f0; /* Borda inferior verde grossa */
+    border-bottom: 10px solid #0f0; 
 }
 
 .destaque-conteudo {
@@ -64,7 +63,7 @@ body {
 }
 
 .destaque-texto {
-    color: #0f0; /* Verde destacado */
+    color: #0f0;
     display: block;
 
 }
@@ -92,7 +91,7 @@ body {
 .destaque-imagem {
     margin: 40px auto;
     padding-right: 50px;
-    width: 400px; /* Ajuste conforme necessário */
+    width: 400px;
     height: auto;
     object-fit: cover;
 }
