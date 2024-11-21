@@ -119,7 +119,7 @@ body {
     display: flex;
     gap: 20px;
     padding: 40px;
-    background-color: #1e1e1e;
+    background: linear-gradient(135deg, #1e1e1e 75%, white 50%);
 }
 
 .recurso h2 {
