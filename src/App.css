@@ -155,7 +155,14 @@ a {
 }
 
 .cliente {
+  display: flex;
+  justify-content: space-evenly;
   margin-bottom: 20px;
+}
+
+.cliente-conteudo{
+  text-align: left;
+  max-width: 500px;
 }
 
 /* Preços */
