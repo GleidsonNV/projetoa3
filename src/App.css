@@ -20,10 +20,17 @@ p,
 ul,
 li,
 a {
+  font-family: Arial, sans-serif;
     list-style: none;
     text-decoration: none;
     color: inherit;
-    box-sizing: border-box;
+}
+
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
 
 .container {
@@ -175,14 +182,69 @@ a {
 .planos {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 1.5rem;
 }
 
 .plano {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
+  width: 250px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.plano h3 {
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.plano p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+.plano ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.plano ul li {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 0.5rem;
+}
+
+.plano button {
+  background: linear-gradient(90deg, #00FF85, #00C2FF);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.plano button:hover {
+  transform: scale(1.05);
+}
+
+/* Estilização do plano "Pata Platina" */
+.plano:nth-child(1) {
+  border: 3px solid #00FF85;
+}
+
+.plano:nth-child(1) h3 {
+  color: #00FF85;
 }
 
 /* Rodapé */
