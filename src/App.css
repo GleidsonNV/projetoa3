@@ -380,7 +380,7 @@ header {
   }
 
   .gato-imagem,
-  .informacao-exclamacao {
+  .informacao-exclamacao, .cachorro-imagem {
     display: none;
   }
 
