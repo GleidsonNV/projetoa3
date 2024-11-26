@@ -21,9 +21,9 @@ ul,
 li,
 a {
   font-family: Arial, sans-serif;
-    list-style: none;
-    text-decoration: none;
-    color: inherit;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 
@@ -31,6 +31,15 @@ h2 {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
 }
 
 .container {
@@ -46,9 +55,38 @@ h2 {
   padding: 20px;
 }
 
+.logo img {
+  height: 40px;
+}
+
 .navbar ul {
   display: flex;
-  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.botao-login {
+  text-decoration: none;
+  color: white;
+  background-color: #007BFF;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .botao-login {
@@ -167,7 +205,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-.cliente-conteudo{
+.cliente-conteudo {
   text-align: left;
   max-width: 500px;
 }
@@ -249,7 +287,7 @@ h2 {
 
 /* Rodapé */
 .rodape {
-  background-color:#1e1e1e;
+  background-color: #1e1e1e;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -319,7 +357,60 @@ h2 {
   height: auto;
 }
 
+/* Adicionando espaçamento responsivo */
+@media (max-width: 768px) {
+.recursos{
+  background: #1e1e1e;
+}
 
+  .cliente-conteudo {
+    text-align: center;
+  }
+
+  .planos,
+  .cliente,
+  .destaque-conteudo,
+  .informacao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .informacao-conteudo {
+    flex-wrap: nowrap;
+  }
+
+  .gato-imagem,
+  .informacao-exclamacao {
+    display: none;
+  }
+
+  .texto-box {
+    display: block;
+    padding: 20px;
+    max-width: 100%;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar ul.active {
+    display: flex;
+}
+
+.menu-toggle {
+    display: block;
+}
+}
 
 
 
@@ -376,6 +467,7 @@ h2 {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
