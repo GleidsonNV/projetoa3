@@ -1,6 +1,6 @@
 const Clientes = () => {
     return (
-        <section className="clientes container">
+        <section id="clientes" className="clientes container">
         <div className="cliente">
             <img src="cliente1-imagem.png" alt="" />
             <div className="cliente-conteudo">
