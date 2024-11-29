@@ -1,6 +1,6 @@
 const Precos = () => {
     return (
-        <section className="precos container">
+        <section id="mensalidades" className="precos container">
             <h2>JUNTE-SE A CENTENAS DE CLIENTES SATISFEITOS!</h2>
             <div className="planos">
                 <div className="plano">
