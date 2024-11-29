@@ -1,6 +1,6 @@
 const Destaque = () => {
     return (
-        <section className="destaque container">
+        <section  id="home" className="destaque container">
             <div className="destaque-conteudo">
                 <div className="texto-destaque">
                     <h1>
