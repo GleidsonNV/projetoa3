@@ -1,6 +1,6 @@
 const Recursos = () => {
     return (
-        <section className="recursos container">
+        <section id="sobre" className="recursos container">
             <div className="recurso-conteudo">
                 <div className="recurso">
                     <h2>1. PARA TODOS</h2>
